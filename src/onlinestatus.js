@@ -1,5 +1,6 @@
 import { useEffect, useState} from "react";
 
+//eslint-disable-next-line
 export default ()=> {
     const [online, networkStatus] = useState(navigator.onLine);
 
@@ -15,3 +16,4 @@ export default ()=> {
     
     return online;
 }
+
